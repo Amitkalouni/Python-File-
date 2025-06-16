@@ -1,11 +1,10 @@
 import mysql.connector
 from tabulate import tabulate
 
-# MySQL connection
 conn = mysql.connector.connect(
     host='localhost',
-    user='root',           # your MySQL username
-    password='Amit@1087',   # your MySQL password
+    user='root',           
+    password='Amit@1087',   
     database='pizza_ordering'
 )
 
